@@ -43,7 +43,7 @@ def github_webhook():
 
 if __name__ == "__main__":
     # send_slack_notifications("hi")
-    port = int(os.environ.get('PORT', 5000))  # Use the 'PORT' environment variable if set, default to 5000
+    port = int(os.environ.get('PORT', 5001))  # Use the 'PORT' environment variable if set, default to 5001
     app.run(host='0.0.0.0', port=port)
 
 
